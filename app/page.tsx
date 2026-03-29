@@ -30,35 +30,35 @@ export default function Home() {
   return (
     <>
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 lg:px-20 backdrop-blur-xl bg-black/60 border-b border-white/[0.04]">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 lg:px-20 backdrop-blur-xl bg-white/60 border-b border-black/[0.04]">
         <a
           href="#"
-          className="text-lg font-bold tracking-tight text-white"
+          className="text-lg font-bold tracking-tight text-foreground"
         >
           MD Advisory
         </a>
         <div className="flex items-center gap-6 md:gap-8">
           <a
             href="#ai-agents"
-            className="hidden md:block text-sm text-muted hover:text-white transition-colors"
+            className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
           >
             {t.nav.aiAgency}
           </a>
           <a
             href="#sap"
-            className="hidden md:block text-sm text-muted hover:text-white transition-colors"
+            className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
           >
             {t.nav.sap}
           </a>
           <a
             href="#about"
-            className="hidden md:block text-sm text-muted hover:text-white transition-colors"
+            className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
           >
             {t.nav.about}
           </a>
           <a
             href="#contact"
-            className="hidden md:block text-sm text-muted hover:text-white transition-colors"
+            className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
           >
             {t.nav.contact}
           </a>
@@ -129,7 +129,7 @@ export default function Home() {
                   <p className="mt-2 text-sm text-muted">
                     {project.industry}
                   </p>
-                  <p className="mt-4 text-base text-white/80 leading-relaxed">
+                  <p className="mt-4 text-base text-foreground/70 leading-relaxed">
                     {project.summary}
                   </p>
                   <div className="mt-6 flex flex-wrap gap-2">
@@ -168,7 +168,7 @@ export default function Home() {
 
           <div className="mt-12 flex flex-col md:flex-row gap-12 items-start">
             <div className="flex-1">
-              <p className="text-base md:text-lg text-white/80 leading-relaxed">
+              <p className="text-base md:text-lg text-foreground/70 leading-relaxed">
                 {t.about.bio}
               </p>
             </div>
@@ -197,7 +197,7 @@ export default function Home() {
           <div className="mt-12 flex flex-col gap-4">
             <a
               href={`mailto:${t.contact.email}`}
-              className="text-lg md:text-xl font-medium text-white hover:text-white/70 transition-colors w-fit"
+              className="text-lg md:text-xl font-medium text-foreground hover:text-muted transition-colors w-fit"
             >
               {t.contact.email}
             </a>
@@ -205,7 +205,7 @@ export default function Home() {
               href={t.contact.linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lg md:text-xl font-medium text-white hover:text-white/70 transition-colors w-fit"
+              className="text-lg md:text-xl font-medium text-foreground hover:text-muted transition-colors w-fit"
             >
               {t.contact.linkedin}
             </a>
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="px-6 py-8 md:px-12 lg:px-20 border-t border-white/[0.04]">
+      <footer className="px-6 py-8 md:px-12 lg:px-20 border-t border-black/[0.04]">
         <div className="max-w-4xl mx-auto flex items-center justify-between text-sm text-muted">
           <span>MD Advisory</span>
           <span>{new Date().getFullYear()}</span>
