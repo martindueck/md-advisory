@@ -7,12 +7,56 @@ export const translations = {
       sap: "SAP Consulting",
       about: "About",
       contact: "Contact",
+      home: "Home",
     },
     de: {
       aiAgency: "AI Agents",
       sap: "SAP Consulting",
       about: "Über mich",
       contact: "Kontakt",
+      home: "Home",
+    },
+  },
+  landing: {
+    en: {
+      tagline: "Advisory at the intersection of enterprise and AI.",
+      cards: {
+        aiAgency: {
+          title: "AI Agent Agency",
+          description:
+            "Personalized AI agent systems that know your context, work 24/7, and are reachable via chat and voice.",
+        },
+        sap: {
+          title: "SAP Consulting",
+          description:
+            "Senior SAP Consultant & Developer — 11 years of ABAP, Fiori, and HCM across energy, healthcare, and public sector.",
+        },
+        about: {
+          title: "About Me",
+          description:
+            "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
+        },
+      },
+    },
+    de: {
+      tagline: "Beratung an der Schnittstelle von Enterprise und AI.",
+      cards: {
+        aiAgency: {
+          title: "AI Agent Agency",
+          description:
+            "Personalisierte AI-Agent-Systeme, die deinen Kontext kennen, rund um die Uhr arbeiten und per Chat und Sprache erreichbar sind.",
+        },
+        sap: {
+          title: "SAP Consulting",
+          description:
+            "Senior SAP-Berater & Entwickler — 11 Jahre ABAP, Fiori und HCM in Energiewirtschaft, Gesundheitswesen und Öffentlichem Sektor.",
+        },
+        about: {
+          title: "Über mich",
+          description:
+            "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
+        },
+      },
     },
   },
   hero: {
@@ -108,14 +152,14 @@ export const translations = {
       title: "About",
       tagline:
         "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
-      bio: "I'm Martin — SAP consultant by trade, AI systems architect by passion. After 11 years of building enterprise solutions across Europe, I started building personalized AI agent systems that actually work — not just chatbots, but intelligent assistants that know your context, learn your workflows, and are available 24/7 via Telegram and voice. I'm moving to Japan in 2026 to start a new chapter.",
+      bio: "I'm Martin — SAP consultant by trade, AI systems architect by passion. After 11 years of building enterprise solutions across Europe, I started building personalized AI agent systems that actually work — not just chatbots, but intelligent assistants that know your context, learn your workflows, and are available 24/7 via Telegram and voice. Currently exploring new ventures at the intersection of enterprise consulting and AI.",
       photoPlaceholder: "Photo coming soon",
     },
     de: {
       title: "Über mich",
       tagline:
         "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
-      bio: "Ich bin Martin — SAP-Berater von Beruf, AI-Systemarchitekt aus Leidenschaft. Nach 11 Jahren Enterprise-Lösungen in ganz Europa habe ich angefangen, personalisierte AI-Agent-Systeme zu bauen, die wirklich funktionieren — keine einfachen Chatbots, sondern intelligente Assistenten, die deinen Kontext kennen, deine Arbeitsabläufe lernen und 24/7 per Telegram und Sprache erreichbar sind. 2026 ziehe ich nach Japan für ein neues Kapitel.",
+      bio: "Ich bin Martin — SAP-Berater von Beruf, AI-Systemarchitekt aus Leidenschaft. Nach 11 Jahren Enterprise-Lösungen in ganz Europa habe ich angefangen, personalisierte AI-Agent-Systeme zu bauen, die wirklich funktionieren — keine einfachen Chatbots, sondern intelligente Assistenten, die deinen Kontext kennen, deine Arbeitsabläufe lernen und 24/7 per Telegram und Sprache erreichbar sind. Aktuell an der Schnittstelle von Enterprise-Beratung und AI.",
       photoPlaceholder: "Foto folgt",
     },
   },
