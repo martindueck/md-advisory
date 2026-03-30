@@ -29,7 +29,7 @@ export const translations = {
         sap: {
           title: "SAP Consulting",
           description:
-            "Senior SAP Consultant & Developer — 11 years of ABAP, Fiori, and HCM across energy, healthcare, and public sector.",
+            "Senior SAP Consultant & Developer — 11 years of HCM, ABAP, and Fiori across energy, healthcare, public sector, and more.",
         },
         about: {
           title: "About Me",
@@ -49,7 +49,7 @@ export const translations = {
         sap: {
           title: "SAP Consulting",
           description:
-            "Senior SAP-Berater & Entwickler — 11 Jahre ABAP, Fiori und HCM in Energiewirtschaft, Gesundheitswesen und Öffentlichem Sektor.",
+            "Senior SAP-Berater & Entwickler — 11 Jahre HCM, ABAP und Fiori in Energiewirtschaft, Gesundheitswesen, Öffentlichem Sektor und mehr.",
         },
         about: {
           title: "Über mich",
@@ -77,72 +77,72 @@ export const translations = {
     en: {
       title: "SAP Consulting",
       intro:
-        "Senior SAP Consultant & Developer — 11 years of experience in ABAP, Fiori, and HCM across energy, healthcare, and public sector.",
+        "Senior SAP Consultant & Developer — 11 years of experience in HCM, ABAP, and Fiori across energy, healthcare, public sector, and more.",
       projects: [
         {
           headline: "New approval workflow in 3 hours instead of 10 days",
-          industry: "Energy sector, Austria, ~2,200 employees",
+          industry: "Energy sector, ~2,200 employees",
           summary:
-            "Built a fully configurable approval workflow framework where new workflow categories are pure customizing entries — no code needed. Reduced setup time from 10 days to 2-3 hours.",
+            "End-to-end consulting and delivery of a fully configurable approval workflow framework — from requirements analysis and client workshops through architecture, estimation, development, and go-live. New workflow categories are pure customizing entries — no code needed. Reduced setup time from 10 days to 2-3 hours.",
           tech: "ABAP OO, SAP Workflow, Fiori My Inbox, BAdIs",
-          role: "Architecture + Full-Stack Development",
+          role: "Project Lead — Consulting, Architecture & Development",
         },
         {
           headline:
             "10 SAP systems consolidated into 1 — with Fiori rollout",
           industry:
-            "Public sector / social insurance IT, Austria, thousands of users",
+            "Public sector / social insurance IT, DACH, thousands of users",
           summary:
-            "Developed the complete Fiori ESS/MSS landscape for one of Austria's largest migration projects. Built custom L16 annual payroll statement app. Agile delivery with 2-week sprints.",
+            "Led the Fiori HCM workstream for one of the largest SAP migration projects in the DACH region. Developed the complete Fiori ESS/MSS landscape including a custom L16 annual payroll statement app. Agile delivery with 2-week sprints.",
           tech: "Fiori/SAPUI5, ABAP, OData, SAP Workflow",
           duration: "01/2021 – 04/2023 (~2.5 years)",
-          role: "Full-Stack Developer (Frontend Fiori + Backend ABAP/OData)",
+          role: "Sub-Project Lead — Fiori HCM",
         },
         {
           headline:
             "Hardship allowances via app — from request to payroll",
-          industry: "Energy infrastructure / power grid operator, Austria",
+          industry: "Energy infrastructure / power grid operator",
           summary:
-            "Built 3 custom Fiori apps for hardship allowance management: employee self-service, manager overview, and error correction. Complete digital process from request through approval to payroll integration.",
+            "End-to-end project delivery: requirements analysis, solution design, development, testing, and go-live. Built 3 custom Fiori apps for hardship allowance management: employee self-service, manager overview, and error correction. Complete digital process from request through approval to payroll integration.",
           tech: "Custom Fiori Apps, Custom Infotype, SAP Workflow",
-          role: "Developer + Partial Project Lead",
+          role: "Project Lead — Consulting, Architecture & Development",
         },
       ],
     },
     de: {
       title: "SAP Consulting",
       intro:
-        "Senior SAP-Berater & Entwickler — 11 Jahre Erfahrung in ABAP, Fiori und HCM in Energiewirtschaft, Gesundheitswesen und Öffentlichem Sektor.",
+        "Senior SAP-Berater & Entwickler — 11 Jahre Erfahrung in HCM, ABAP und Fiori in Energiewirtschaft, Gesundheitswesen, Öffentlichem Sektor und mehr.",
       projects: [
         {
           headline:
             "Neuer Genehmigungsworkflow in 3 Stunden statt 10 Tagen",
-          industry: "Energiewirtschaft, Österreich, ~2.200 Mitarbeiter",
+          industry: "Energiewirtschaft, ~2.200 Mitarbeiter",
           summary:
-            "Ein vollständig konfigurierbares Workflow-Framework gebaut, bei dem neue Workflow-Kategorien reine Customizing-Einträge sind — kein Code nötig. Setup-Zeit von 10 Tagen auf 2-3 Stunden reduziert.",
+            "End-to-End-Beratung und Umsetzung eines vollständig konfigurierbaren Workflow-Frameworks — von Anforderungsanalyse und Kundenworkshops über Architektur, Aufwandsschätzung, Entwicklung bis Go-Live. Neue Workflow-Kategorien sind reine Customizing-Einträge — kein Code nötig. Setup-Zeit von 10 Tagen auf 2-3 Stunden reduziert.",
           tech: "ABAP OO, SAP Workflow, Fiori My Inbox, BAdIs",
-          role: "Architektur + Full-Stack-Entwicklung",
+          role: "Projektleitung — Beratung, Architektur & Entwicklung",
         },
         {
           headline:
             "10 SAP-Systeme auf 1 konsolidiert — mit Fiori-Rollout",
           industry:
-            "Öffentlicher Sektor / Sozialversicherungs-IT, Österreich, tausende Anwender",
+            "Öffentlicher Sektor / Sozialversicherungs-IT, DACH, tausende Anwender",
           summary:
-            "Die komplette Fiori ESS/MSS-Landschaft für eines der größten Migrationsprojekte Österreichs entwickelt. Custom L16 Jahreslohnzettel-App gebaut. Agile Delivery mit 2-Wochen-Sprints.",
+            "Teilprojektleitung des Fiori-HCM-Bereichs für eines der größten SAP-Migrationsprojekte im DACH-Raum. Die komplette Fiori ESS/MSS-Landschaft entwickelt, inklusive Custom L16 Jahreslohnzettel-App. Agile Delivery mit 2-Wochen-Sprints.",
           tech: "Fiori/SAPUI5, ABAP, OData, SAP Workflow",
           duration: "01/2021 – 04/2023 (~2,5 Jahre)",
-          role: "Full-Stack Developer (Frontend Fiori + Backend ABAP/OData)",
+          role: "Teilprojektleitung — Fiori HCM",
         },
         {
           headline:
             "Erschwernis-Zulagen per App — von Antrag bis Abrechnung",
           industry:
-            "Energieinfrastruktur / Netzbetreiber, Österreich",
+            "Energieinfrastruktur / Netzbetreiber",
           summary:
-            "3 Custom Fiori Apps für Erschwernis-Zulagen-Verwaltung gebaut: Mitarbeiter-Self-Service, Manager-Übersicht und Fehlerkorrektur. Kompletter digitaler Prozess von Antrag über Genehmigung bis zur Abrechnungsintegration.",
+            "End-to-End-Projektleitung: Anforderungsanalyse, Lösungsdesign, Entwicklung, Testing und Go-Live. 3 Custom Fiori Apps für Erschwernis-Zulagen-Verwaltung gebaut: Mitarbeiter-Self-Service, Manager-Übersicht und Fehlerkorrektur. Kompletter digitaler Prozess von Antrag über Genehmigung bis zur Abrechnungsintegration.",
           tech: "Custom Fiori Apps, Custom Infotype, SAP Workflow",
-          role: "Entwickler + Teilprojektleitung",
+          role: "Projektleitung — Beratung, Architektur & Entwicklung",
         },
       ],
     },
