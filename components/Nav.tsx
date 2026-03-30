@@ -23,13 +23,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
         {children}
       </span>
       {isActive && (
-        <Image
-          src="/signet-black.png"
-          alt=""
-          width={12}
-          height={12}
-          className="h-3 w-auto"
-        />
+        <span className="w-1 h-1 rounded-full bg-foreground" />
       )}
     </Link>
   );
