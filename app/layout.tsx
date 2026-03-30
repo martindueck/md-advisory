@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "MD Advisory — AI Agents & SAP Consulting",
   description:
     "Martin Dueck — Personalized AI agent systems and senior SAP consulting. 11 years of enterprise experience. Done-for-you AI agents, ready in one week.",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "MD Advisory — AI Agents & SAP Consulting",
     description:
