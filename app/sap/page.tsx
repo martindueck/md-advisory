@@ -69,6 +69,21 @@ export default function SapPage() {
             )}
           </div>
 
+          {/* Skills Marquee */}
+          <div className="mt-20 overflow-hidden">
+            <div className="flex animate-marquee whitespace-nowrap">
+              {[...Array(2)].map((_, i) => (
+                <div key={i} className="flex gap-8 mr-8">
+                  {["SAP HCM", "ESS/MSS", "PA", "PO", "PY", "PT", "Fiori", "OData", "SAPUI5", "TypeScript", "ABAP OO", "SAP Workflow"].map((skill) => (
+                    <span key={skill} className="text-sm text-muted font-medium tracking-wide">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Contact CTA */}
           <div className="mt-20">
             <p className="text-lg text-muted">{contact.cta}</p>
