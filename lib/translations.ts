@@ -152,14 +152,14 @@ export const translations = {
       title: "About",
       tagline:
         "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
-      bio: "I'm Martin — SAP consultant by trade, AI systems architect by passion. After 11 years of building enterprise solutions across Europe, I started building personalized AI agent systems that actually work — not just chatbots, but intelligent assistants that know your context, learn your workflows, and are available 24/7 via Telegram and voice. Currently exploring new ventures at the intersection of enterprise consulting and AI.",
+      bio: "I'm Martin Dück — SAP consultant by trade, AI systems architect by passion. After 11 years of building enterprise solutions across Europe, I started building personalized AI agent systems that actually work — not just chatbots, but intelligent assistants that know your context, learn your workflows, and are available 24/7 via Telegram and voice. Currently exploring new ventures at the intersection of enterprise consulting and AI.",
       photoPlaceholder: "Photo coming soon",
     },
     de: {
       title: "Über mich",
       tagline:
         "Adventurer of Truth. Christian Entrepreneur. Purpose to Profit Architect.",
-      bio: "Ich bin Martin — SAP-Berater von Beruf, AI-Systemarchitekt aus Leidenschaft. Nach 11 Jahren Enterprise-Lösungen in ganz Europa habe ich angefangen, personalisierte AI-Agent-Systeme zu bauen, die wirklich funktionieren — keine einfachen Chatbots, sondern intelligente Assistenten, die deinen Kontext kennen, deine Arbeitsabläufe lernen und 24/7 per Telegram und Sprache erreichbar sind. Aktuell an der Schnittstelle von Enterprise-Beratung und AI.",
+      bio: "Ich bin Martin Dück — SAP-Berater von Beruf, AI-Systemarchitekt aus Leidenschaft. Nach 11 Jahren Enterprise-Lösungen in ganz Europa habe ich angefangen, personalisierte AI-Agent-Systeme zu bauen, die wirklich funktionieren — keine einfachen Chatbots, sondern intelligente Assistenten, die deinen Kontext kennen, deine Arbeitsabläufe lernen und 24/7 per Telegram und Sprache erreichbar sind. Aktuell an der Schnittstelle von Enterprise-Beratung und AI.",
       photoPlaceholder: "Foto folgt",
     },
   },

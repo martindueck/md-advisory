@@ -5,7 +5,7 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 export const metadata: Metadata = {
   title: "MD Advisory — AI Agents & SAP Consulting",
   description:
-    "Martin Dueck — Personalized AI agent systems and senior SAP consulting. 11 years of enterprise experience. Done-for-you AI agents, ready in one week.",
+    "Martin Dück — Personalized AI agent systems and senior SAP consulting. 11 years of enterprise experience. Done-for-you AI agents, ready in one week.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MD Advisory — AI Agents & SAP Consulting",
     description:
-      "Personalized AI agent systems and senior SAP consulting by Martin Dueck.",
+      "Personalized AI agent systems and senior SAP consulting by Martin Dück.",
     url: "https://md-advisory.com",
     siteName: "MD Advisory",
     type: "website",

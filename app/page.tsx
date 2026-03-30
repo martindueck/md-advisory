@@ -20,7 +20,7 @@ export default function Home() {
         <div className="hero-glow top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2" />
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05] animate-fade-in-up">
-            Martin Dueck
+            Martin Dück
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted leading-relaxed max-w-2xl mx-auto animate-fade-in-up-delay-1">
             {t.tagline}
