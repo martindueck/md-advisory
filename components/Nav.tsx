@@ -2,12 +2,38 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/components/LanguageProvider";
 import { translations } from "@/lib/translations";
 
 type NavProps = {
   variant: "landing" | "subpage";
 };
+
+function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
+  const pathname = usePathname();
+  const isActive = pathname === href;
+
+  return (
+    <Link
+      href={href}
+      className="hidden md:flex flex-col items-center gap-1.5 text-sm transition-colors hover:text-foreground"
+    >
+      <span className={isActive ? "text-foreground font-medium" : "text-muted"}>
+        {children}
+      </span>
+      {isActive && (
+        <Image
+          src="/signet-black.png"
+          alt=""
+          width={12}
+          height={12}
+          className="h-3 w-auto"
+        />
+      )}
+    </Link>
+  );
+}
 
 export function Nav({ variant }: NavProps) {
   const { lang, toggleLang } = useLanguage();
@@ -47,24 +73,9 @@ export function Nav({ variant }: NavProps) {
         />
       </Link>
       <div className="flex items-center gap-6 md:gap-8">
-        <Link
-          href="/ai-agency"
-          className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
-        >
-          {t.aiAgency}
-        </Link>
-        <Link
-          href="/sap"
-          className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
-        >
-          {t.sap}
-        </Link>
-        <Link
-          href="/about"
-          className="hidden md:block text-sm text-muted hover:text-foreground transition-colors"
-        >
-          {t.about}
-        </Link>
+        <NavLink href="/ai-agency">{t.aiAgency}</NavLink>
+        <NavLink href="/sap">{t.sap}</NavLink>
+        <NavLink href="/about">{t.about}</NavLink>
         <button
           onClick={toggleLang}
           className="glass-button rounded-full px-3 py-1.5 text-xs font-medium tracking-wide uppercase cursor-pointer"
