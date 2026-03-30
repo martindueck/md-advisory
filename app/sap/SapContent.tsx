@@ -71,7 +71,7 @@ export function SapContent({ projects }: { projects: WebsiteProject[] }) {
 
           {/* Skills Marquee */}
           <div className="mt-20">
-            <p className="text-xs uppercase tracking-widest text-muted/50 mb-4">
+            <p className="text-xs uppercase tracking-widest text-muted mb-4">
               {lang === "en" ? "Skills & Modules" : "Skills & Module"}
             </p>
             <div className="overflow-hidden border-t border-b border-black/[0.04] py-4">
@@ -79,7 +79,7 @@ export function SapContent({ projects }: { projects: WebsiteProject[] }) {
                 {[...Array(2)].map((_, i) => (
                   <div key={i} className="flex gap-8 mr-8">
                     {["SAP HCM", "PA", "PY", "PT", "PO", "OM", "ESS/MSS", "Self-Services", "SAP Workflow", "Fiori", "SAPUI5", "OData", "ABAP OO", "SAP Customizing", "SAP Process & Forms", "TypeScript"].map((skill) => (
-                      <span key={skill} className="text-sm text-muted font-medium tracking-wide">
+                      <span key={skill} className="text-sm text-foreground/70 font-medium tracking-wide">
                         {skill}
                       </span>
                     ))}
