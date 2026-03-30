@@ -52,40 +52,40 @@ function getText(prop: NotionProperty | undefined): string {
 function mapProject(page: Record<string, unknown>): WebsiteProject {
   const props = page.properties as Record<string, NotionProperty>;
 
-  const detailEn = getText(props.website_detail_en);
-  const detailDe = getText(props.website_detail_de);
+  const detailEn = getText(props.detail_en);
+  const detailDe = getText(props.detail_de);
 
   return {
     id: page.id as string,
-    slug: getText(props.website_slug),
+    slug: getText(props.slug),
     headline: {
-      en: getText(props.website_headline_en),
-      de: getText(props.website_headline_de),
+      en: getText(props.headline_en),
+      de: getText(props.headline_de),
     },
     industry: {
-      en: getText(props.website_industry_en),
-      de: getText(props.website_industry_de),
+      en: getText(props.industry_en),
+      de: getText(props.industry_de),
     },
     summary: {
-      en: getText(props.website_summary_en),
-      de: getText(props.website_summary_de),
+      en: getText(props.summary_en),
+      de: getText(props.summary_de),
     },
     detail:
       detailEn || detailDe ? { en: detailEn, de: detailDe } : null,
     tech:
-      props.website_tech?.type === "multi_select"
-        ? props.website_tech.multi_select.map((t) => t.name)
+      props.tech?.type === "multi_select"
+        ? props.tech.multi_select.map((t) => t.name)
         : [],
     role: {
-      en: getText(props.website_role_en),
-      de: getText(props.website_role_de),
+      en: getText(props.role_en),
+      de: getText(props.role_de),
     },
-    duration: getText(props.website_duration) || null,
+    duration: getText(props.duration) || null,
     status:
-      (props.website_status as SelectProperty)?.select?.name === "Ongoing"
+      (props.status as SelectProperty)?.select?.name === "Ongoing"
         ? "ongoing"
         : "completed",
-    featured: (props.website_featured as CheckboxProperty)?.checkbox ?? false,
+    featured: (props.featured as CheckboxProperty)?.checkbox ?? false,
   };
 }
 
@@ -93,10 +93,10 @@ export async function getWebsiteProjects(): Promise<WebsiteProject[]> {
   const response = await notion.dataSources.query({
     data_source_id: dataSourceId,
     filter: {
-      property: "website_show",
+      property: "show",
       checkbox: { equals: true },
     },
-    sorts: [{ property: "website_sort", direction: "ascending" }],
+    sorts: [{ property: "sort", direction: "ascending" }],
   });
 
   return response.results.map((page) => mapProject(page as Record<string, unknown>));
@@ -109,8 +109,8 @@ export async function getProjectBySlug(
     data_source_id: dataSourceId,
     filter: {
       and: [
-        { property: "website_show", checkbox: { equals: true } },
-        { property: "website_slug", rich_text: { equals: slug } },
+        { property: "show", checkbox: { equals: true } },
+        { property: "slug", rich_text: { equals: slug } },
       ],
     },
   });
