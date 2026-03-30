@@ -78,73 +78,11 @@ export const translations = {
       title: "SAP Consulting",
       intro:
         "Senior SAP Consultant & Developer — 11 years of experience in HCM, ABAP, and Fiori across energy, healthcare, public sector, and more.",
-      projects: [
-        {
-          headline: "New approval workflow in 3 hours instead of 10 days",
-          industry: "Energy sector, ~2,200 employees",
-          summary:
-            "End-to-end consulting and delivery of a fully configurable approval workflow framework — from requirements analysis and client workshops through architecture, estimation, development, and go-live. New workflow categories are pure customizing entries — no code needed. Reduced setup time from 10 days to 2-3 hours.",
-          tech: "ABAP OO, SAP Workflow, Fiori My Inbox, BAdIs",
-          role: "Project Lead — Consulting, Architecture & Development",
-        },
-        {
-          headline:
-            "10 SAP systems consolidated into 1 — with Fiori rollout",
-          industry:
-            "Public sector / social insurance IT, DACH, thousands of users",
-          summary:
-            "Led the Fiori HCM workstream for one of the largest SAP migration projects in the DACH region. Developed the complete Fiori ESS/MSS landscape including a custom L16 annual payroll statement app. Agile delivery with 2-week sprints.",
-          tech: "Fiori/SAPUI5, ABAP, OData, SAP Workflow",
-          duration: "01/2021 – 04/2023 (~2.5 years)",
-          role: "Sub-Project Lead — Fiori HCM",
-        },
-        {
-          headline:
-            "Hardship allowances via app — from request to payroll",
-          industry: "Energy infrastructure / power grid operator",
-          summary:
-            "End-to-end project delivery: requirements analysis, solution design, development, testing, and go-live. Built 3 custom Fiori apps for hardship allowance management: employee self-service, manager overview, and error correction. Complete digital process from request through approval to payroll integration.",
-          tech: "Custom Fiori Apps, Custom Infotype, SAP Workflow",
-          role: "Project Lead — Consulting, Architecture & Development",
-        },
-      ],
     },
     de: {
       title: "SAP Consulting",
       intro:
         "Senior SAP-Berater & Entwickler — 11 Jahre Erfahrung in HCM, ABAP und Fiori in Energiewirtschaft, Gesundheitswesen, Öffentlichem Sektor und mehr.",
-      projects: [
-        {
-          headline:
-            "Neuer Genehmigungsworkflow in 3 Stunden statt 10 Tagen",
-          industry: "Energiewirtschaft, ~2.200 Mitarbeiter",
-          summary:
-            "End-to-End-Beratung und Umsetzung eines vollständig konfigurierbaren Workflow-Frameworks — von Anforderungsanalyse und Kundenworkshops über Architektur, Aufwandsschätzung, Entwicklung bis Go-Live. Neue Workflow-Kategorien sind reine Customizing-Einträge — kein Code nötig. Setup-Zeit von 10 Tagen auf 2-3 Stunden reduziert.",
-          tech: "ABAP OO, SAP Workflow, Fiori My Inbox, BAdIs",
-          role: "Projektleitung — Beratung, Architektur & Entwicklung",
-        },
-        {
-          headline:
-            "10 SAP-Systeme auf 1 konsolidiert — mit Fiori-Rollout",
-          industry:
-            "Öffentlicher Sektor / Sozialversicherungs-IT, DACH, tausende Anwender",
-          summary:
-            "Teilprojektleitung des Fiori-HCM-Bereichs für eines der größten SAP-Migrationsprojekte im DACH-Raum. Die komplette Fiori ESS/MSS-Landschaft entwickelt, inklusive Custom L16 Jahreslohnzettel-App. Agile Delivery mit 2-Wochen-Sprints.",
-          tech: "Fiori/SAPUI5, ABAP, OData, SAP Workflow",
-          duration: "01/2021 – 04/2023 (~2,5 Jahre)",
-          role: "Teilprojektleitung — Fiori HCM",
-        },
-        {
-          headline:
-            "Erschwernis-Zulagen per App — von Antrag bis Abrechnung",
-          industry:
-            "Energieinfrastruktur / Netzbetreiber",
-          summary:
-            "End-to-End-Projektleitung: Anforderungsanalyse, Lösungsdesign, Entwicklung, Testing und Go-Live. 3 Custom Fiori Apps für Erschwernis-Zulagen-Verwaltung gebaut: Mitarbeiter-Self-Service, Manager-Übersicht und Fehlerkorrektur. Kompletter digitaler Prozess von Antrag über Genehmigung bis zur Abrechnungsintegration.",
-          tech: "Custom Fiori Apps, Custom Infotype, SAP Workflow",
-          role: "Projektleitung — Beratung, Architektur & Entwicklung",
-        },
-      ],
     },
   },
   about: {
@@ -177,6 +115,26 @@ export const translations = {
       email: "martin@md-advisory.com",
       linkedin: "LinkedIn",
       linkedinUrl: "https://linkedin.com/in/martindueck",
+    },
+  },
+  ui: {
+    en: {
+      moreProjects: "More Projects",
+      allProjects: "All Projects",
+      allProjectsIntro:
+        "A comprehensive overview of my SAP consulting projects — past and ongoing.",
+      back: "Back",
+      ongoing: "Ongoing",
+      completed: "Completed",
+    },
+    de: {
+      moreProjects: "Weitere Projekte",
+      allProjects: "Alle Projekte",
+      allProjectsIntro:
+        "Eine Gesamtübersicht meiner SAP-Beratungsprojekte — abgeschlossene und laufende.",
+      back: "Zurück",
+      ongoing: "Laufend",
+      completed: "Abgeschlossen",
     },
   },
 } as const;
